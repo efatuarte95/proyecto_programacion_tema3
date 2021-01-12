@@ -1,6 +1,6 @@
 package vistas;
 
-public class instrucciones {
+public class Instrucciones {
 	
 	public void mostrarInstrucciones() {
 		System.out.println("Desde el principio de los tiempos, los Forajidos cazan al Sheriff y el\r\n"
