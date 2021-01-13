@@ -6,14 +6,16 @@ public class Cartas {
 	private String nombre;
 	private int tipo;
 	private int estado;
+	private Efectos efecto;
 	
 	
 	// CONSTRUCTOR
-	public Cartas(String nombre, int tipo, int estado) {
+	public Cartas(String nombre, int tipo, int estado, Efectos efecto) {
 		super();
 		this.nombre = nombre;
 		this.tipo = tipo;
 		this.estado = estado;
+		this.efecto = efecto;
 	}
 	
 	// GETTERS & SETTERS
@@ -36,11 +38,19 @@ public class Cartas {
 		this.estado = estado;
 	}
 	
+	public Efectos getEfecto() {
+		return efecto;
+	}
+
+	public void setEfecto(Efectos efecto) {
+		this.efecto = efecto;
+	}
+
 	// MÉTODOS
+	
 	@Override
 	public String toString() {
 		return "Cartas [nombre=" + nombre + ", tipo=" + tipo + ", estado=" + estado + "]";
 	}
-	
 	
 }
