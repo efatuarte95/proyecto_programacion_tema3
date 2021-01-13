@@ -20,7 +20,7 @@ public class Instrucciones {
 				+ "¿Pero quiénes son los despiadados Forajidos que quieren coserle a tiros?\n"
 				+ "¡Para averiguarlo, tendrás que desenfundar (las cartas, claro)!\n"
 				+ "Solo ante el peligro bajo el ardiente sol de mediodía, sucesos inesperados obligan a buscar refugio en una ciudad fantasma.\r\n"
-				+ "En Dodge City, nuevos pistoleros compiten empleando nuevos trucos y técnicas desconocidas.\n"
+				+ "En Dodge City, pistoleros compiten empleando nuevos trucos y técnicas desconocidas.\n"
 				+ "Cuando la cosa se pone dura, los más duros ponen toda la carne en el asador y se lo juegan todo Por un puñado de cartas.\n"
 				+ "¡Y si eso no fuera suficiente, pistoleros aún más extraños salen de sus escondites!\n"
 				+ "Ahora el Sheriff ha decidido zanjar las cosas de una vez por todas, a su manera...\n"
