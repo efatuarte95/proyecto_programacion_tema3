@@ -2,63 +2,63 @@ package model;
 
 public class Personaje {
 	
-	private String Nombre;
-	private int Vida;
-	private int Alcance;
-	private Efectos Efecto;
+	// ATRIBUTOS
+	private String nombre;
+	private int vida;
+	private int alcance;
+	private Efectos efecto;
 	
-	
+	// CONSTRUCTOR
 	public Personaje(String nombre, int vida, int alcance, Efectos efecto) {
-		super();
-		Nombre = nombre;
-		Vida = vida;
-		Alcance = alcance;
-		Efecto = efecto;
+		this.nombre = nombre;
+		this.vida = vida;
+		this.alcance = alcance;
+		this.efecto = efecto;
 	}
-
-
+	
+	// GETTERS & SETTERS
 	public String getNombre() {
-		return Nombre;
+		return nombre;
 	}
-
 
 	public void setNombre(String nombre) {
-		Nombre = nombre;
+		this.nombre = nombre;
 	}
-
 
 	public int getVida() {
-		return Vida;
+		return vida;
 	}
-
 
 	public void setVida(int vida) {
-		Vida = vida;
+		this.vida = vida;
 	}
-
 
 	public int getAlcance() {
-		return Alcance;
+		return alcance;
 	}
-
 
 	public void setAlcance(int alcance) {
-		Alcance = alcance;
+		this.alcance = alcance;
 	}
-
 
 	public Efectos getEfecto() {
-		return Efecto;
+		return efecto;
 	}
 
-
 	public void setEfecto(Efectos efecto) {
-		Efecto = efecto;
+		this.efecto = efecto;
+	}
+
+	// MÉTODOS
+	@Override
+	public String toString() {
+		return "Personaje [nombre=" + nombre + ", vida=" + vida + ", alcance=" + alcance + ", efecto=" + efecto + "]";
 	}
 	
 	public int perderVida() {
-		Vida--;
-		return Vida;
+		vida--;
+		return vida;
 	}
+
 }
 
