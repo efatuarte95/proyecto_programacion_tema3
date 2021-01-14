@@ -5,10 +5,10 @@ public class Personaje {
 	private String Nombre;
 	private int Vida;
 	private int Alcance;
-	private String Efecto;
+	private Efectos Efecto;
 	
 	
-	public Personaje(String nombre, int vida, int alcance, String efecto) {
+	public Personaje(String nombre, int vida, int alcance, Efectos efecto) {
 		super();
 		Nombre = nombre;
 		Vida = vida;
@@ -47,12 +47,12 @@ public class Personaje {
 	}
 
 
-	public String getEfecto() {
+	public Efectos getEfecto() {
 		return Efecto;
 	}
 
 
-	public void setEfecto(String efecto) {
+	public void setEfecto(Efectos efecto) {
 		Efecto = efecto;
 	}
 	
