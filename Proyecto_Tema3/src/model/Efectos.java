@@ -27,5 +27,14 @@ public class Efectos {
 	public void jugarMustang() {}
 	
 	// MÉTODOS DE ACCIONES
+	
+	public void jugarSalon() {}
+	public void jugarCerveza() {}
+	public void jugarAlmacen() {}
+	public void jugarDiligencia() {}
+	public void jugarWellsFargo() {}
+	public void jugarAmetralladoraGatling() {}
+	public void jugarIndios() {}
+	public void jugarDuelo() {}
 
 }

@@ -1,3 +1,5 @@
+package model;
+
 import vistas.Instrucciones;
 
 public class Principal {
@@ -7,4 +9,5 @@ public class Principal {
 
 		Instrucciones.mostrarInstrucciones();
 	}
+	
 }
