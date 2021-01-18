@@ -7,13 +7,15 @@ public class Personaje {
 	private int vida;
 	private int alcance;
 	private Efectos efecto;
+	private String descripcion;
 	
 	// CONSTRUCTOR
-	public Personaje(String nombre, int vida, int alcance, Efectos efecto) {
+	public Personaje(String nombre, int vida, int alcance, Efectos efecto, String descripcion) {
 		this.nombre = nombre;
 		this.vida = vida;
 		this.alcance = alcance;
 		this.efecto = efecto;
+		this.descripcion = descripcion;
 	}
 	
 	// GETTERS & SETTERS
@@ -47,6 +49,14 @@ public class Personaje {
 
 	public void setEfecto(Efectos efecto) {
 		this.efecto = efecto;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
 	}
 
 	// MÉTODOS
